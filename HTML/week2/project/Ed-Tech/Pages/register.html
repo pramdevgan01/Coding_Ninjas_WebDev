@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="./index.html">
+                <img src="../Multimedia/new_cn_logo.svg" alt="Coding Ninjas Logo" width="200" height="50">
+            </a>
+        </figure>
+    </header>
+    <hr>
+    <nav>
+        <a href="./index.html">Home</a>&nbsp;&nbsp;
+        <a href="./courses.html">Courses</a> &nbsp;&nbsp;
+        <a href="./contact.html">Contact Us</a>&nbsp;&nbsp;
+        <a href="./admin.html">Admin</a>
+    </nav>
+    <h1>Create an Account</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required> <br> <br> 
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br> <br> 
+            
+            <label for="email">Username:</label>
+            <input type="username" id="username" name="username" required> <br> <br> 
+
+            <label for="email">Password:</label>
+            <input type="password" id="password" name="password" required> <br> <br> 
+
+            <label for="UserType">User Type:</label>
+            <select name="UserType" id="UserType" required>
+                <option value="" disabled selected>Select user type</option>
+                <option value="Student">Student</option>
+                <option value="Instructor">Instructor</option>
+            </select>
+            <br><br>
+
+            <label for="course">Select Courses</label>
+            <select name="courses" id="courses" required>
+                <option value="web development">Course 1 - Web Development</option>
+                <option value="data science fundamental">Course 2 - Data Science Fundamental</option>
+                <option value="digital marketing Mastery">Course 3 - Digital Marketing Mastery</option>
+                <option value="Android Development">Course 4 - Android Development</option>
+            </select>
+            <br><br>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+</body>
+</html>
