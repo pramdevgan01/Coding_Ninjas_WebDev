@@ -1,0 +1,32 @@
+
+body {
+    font-weight: 30px;
+}
+
+div {
+    background-color: blueviolet;
+    /* width: 3cm;
+    height: 3cm; */
+
+
+    /* em is dependent on parent of size like if parent is (body)
+    by default (16px) and if it is
+    16px then child size will be 32 pixel */
+    /* width: 2em; 
+    height: 4em; */
+
+
+
+    /* rem is relative to root not parent  short of root-em 
+    if root is (html) and by default it is 16px  
+    if i use 2rem then it should be 32px*/
+    /* width:2rem;
+    height:4rem; */
+
+
+    width: 50vh;
+    height: 50vh;   
+
+
+    
+}

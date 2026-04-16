@@ -1,0 +1,19 @@
+p {
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 4px red;
+    font-family: cursives;
+}
+
+
+div {
+    background-color: blueviolet;
+    background-image: url(../multimedia/up-arrow.png), url(../multimedia/IMG_0063.jpeg);
+    /* background-repeat: no-repeat;
+    background-position: center; */
+
+    background-size: cover;
+    background-attachment: scroll;
+
+}

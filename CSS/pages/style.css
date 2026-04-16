@@ -1,0 +1,36 @@
+ /* h2 {
+        color:blueviolet;
+}
+
+p {
+    color: darkcyan;
+
+}
+
+li {
+    color: aquamarine;
+}
+
+.desc_res {
+    color: cornflowerblue;
+}   
+
+#des1{
+    color: black;
+}
+
+
+#top{
+    color: cadetblue;
+    font-size: 56px;
+}
+ */
+
+
+ p {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 4px red;
+    font-family: cursive;
+ }
