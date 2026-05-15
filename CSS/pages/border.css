@@ -1,0 +1,32 @@
+#outer {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#inner {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+
+    /* border-width: 10px;
+    border-color: blue;
+    border-style:groove; dashed, solid , dotted, groove, etc */
+
+    /* shorthand for above 3 line */
+    /* border: 2px dashed blue; */
+
+    /* border-left: 2px red solid; */
+
+    /* border-radius: 20px 40px; */
+
+    /* border-radius: 20px 40px 10px; */
+    /*             TL  TR|BL  BR */
+
+
+    /* Al the above radius co-respondingn to the circle */
+
+    /* But if i want to give co-responding to ellipse then we have to give like belwo */
+    border-radius: 20px/30px;
+
+}

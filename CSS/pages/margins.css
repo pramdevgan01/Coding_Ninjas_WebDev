@@ -1,0 +1,84 @@
+
+/* for paragraph there is 16px margins */
+
+/* for between 2 div there is no margin space */
+
+
+#div1 {
+    width: 400px;
+    height: 100px;
+    background-color: cyan;
+    
+    /* margin: 0px 0px 20px; */
+    /* 1st 0px => Top,  2nd 0px => Right and Left, bottom => 10px*/
+    margin-bottom: 20px;
+
+    border: 2px black solid;
+    padding: 20px;
+
+    box-sizing: content-box;
+
+    /* by default box-model is content-box */
+
+}
+/* 
+If there is 2 block of elements llike div if i give vertical margin to the 
+upper block and lower block, so margins do not add up, they just collapse.
+
+so adding will happen only horizontally
+*/
+#div2{
+    width: 400px;
+    height:100px;
+    background-color: blueviolet;
+    /* we have 10px at Top, right, bottom left */
+    /* margin: 10px;  */
+
+    /* margin: 10px 20px; */
+    /* 10 px => top and bottom, 20px => right and left */
+
+
+    margin-top:20px;
+
+    border: 2px black solid;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+/* 
+#para1 {
+    border: 1px black solid;
+    display: inline-block;
+}
+*/
+
+
+/* padding should be between border and content */
+
+/*
+#para2 {
+    border: 1px black solid;
+    padding: 20px;
+} 
+*/
+
+
+#para1 {
+    width: 45%;
+    border: 1px black solid;
+    display: inline-block;
+    min-width: 192px;
+}
+
+
+/* padding should be between border and content */
+#para2 {
+    width: 45%;
+    border: 1px black solid;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    min-width: 192px;
+}

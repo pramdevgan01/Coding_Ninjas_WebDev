@@ -1,0 +1,24 @@
+/* 
+Float has 5 property
+
+1. none → Default. The element does not float; it stays in the normal document flow.
+2. left → Floats the element to the left side of its container.
+3. right → Floats the element to the right side of its container.
+4. inline-start → Floats the element to the start of the inline direction (useful for supporting different writing modes, like left-to-right or right-to-left).
+5. inline-end → Floats the element to the end of the inline direction.
+
+*/
+
+
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: lightsalmon;
+  /* float: left; */
+  float: right;
+}
+
+
+img {
+  float: inline-start;
+}

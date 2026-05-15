@@ -1,0 +1,8 @@
+.list1 {
+    /* list-style-type:armenian;
+    list-style-position: inside; */
+    /* list-style-image: url(../multimedia/up-arrow.png); */
+
+    list-style: circle inside;
+
+}

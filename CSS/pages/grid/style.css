@@ -1,0 +1,26 @@
+#container {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 200px); */
+    border: 1px solid blue;
+    width: 80vw;
+    height: 90vh;
+    /* grid-auto-rows: 50px;  */
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+
+    /* row-gap: 10px;
+    column-gap: 20px;
+     */
+    gap: 10; /* for col and row */
+    gap: 10 20px /* 10 for row and 2nd for col gap*/
+}
+
+.box {
+    background-color: lightgreen;
+    border: 1px dotted green;
+    border-radius: 10px;
+    padding: 20px;
+}
